@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aura Stacker – Delete Your Data</title>
+    <!--
+      The data deletion page linked from the Play Console Data safety form (published next to privacy.html at
+      https://gustavolps1.github.io/aura-stacker-site/delete-data.html; copy it to the public repo
+      gustavolps1/aura-stacker-site to update it). Keep it in step with privacy.html and src/cloudSave.ts.
+    -->
+    <style>
+      :root {
+        --bg: #fdf6e9;
+        --text: #2a1d14;
+        --dim: #6b5848;
+        --accent: #c4700e;
+        --rule: #e6d6bc;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1b140f;
+          --text: #f3e8d8;
+          --dim: #c4ae95;
+          --accent: #ffb547;
+          --rule: #3a2c20;
+        }
+      }
+      html {
+        background: var(--bg);
+      }
+      body {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 28px;
+      }
+      h2 {
+        margin: 32px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--rule);
+        font-size: 19px;
+      }
+      .meta {
+        color: var(--dim);
+        margin: 0 0 24px;
+      }
+      a {
+        color: var(--accent);
+      }
+      li {
+        margin: 4px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Aura Stacker – Delete Your Data</h1>
+    <p class="meta">Updated: 16 October 2026 · App: Aura Stacker (Android, package com.aurastacker)</p>
+
+    <p>
+      Aura Stacker has no accounts of its own and keeps no player data on our servers. Your game data is in two places:
+      on your device, and (if you sign in to Google Play Games) as a saved game in your Play Games account. You can
+      delete both yourself, at any time, with the steps below. See also the
+      <a href="privacy.html">privacy policy</a>.
+    </p>
+
+    <h2>1. Game data on your device</h2>
+    <p>Your level, gems, heroes, cosmetics, achievements, runs in progress, settings and gameplay statistics.</p>
+    <ol>
+      <li>Open your phone's <b>Settings</b> → <b>Apps</b> → <b>Aura Stacker</b>.</li>
+      <li>Tap <b>Storage</b> (or <b>Storage &amp; cache</b>) → <b>Clear storage</b> (or <b>Clear data</b>).</li>
+    </ol>
+    <p>Uninstalling the app deletes the same data. It is removed at once and cannot be recovered.</p>
+
+    <h2>2. Your saved game in Google Play Games</h2>
+    <p>
+      The copy of your progress (level, gems, unlocked heroes and cosmetics, achievements, lifetime totals and your
+      Play Games nickname) that lets you continue on a new phone.
+    </p>
+    <ol>
+      <li>Open the <b>Google Play Games</b> app (or the Play Games section of the Play Store) → your <b>profile</b> →
+        <b>Settings</b>.</li>
+      <li>Tap <b>Delete Play Games account &amp; data</b>, then under <b>Delete individual game data</b> find
+        <b>Aura Stacker</b> and tap <b>Delete</b>.</li>
+    </ol>
+    <p>
+      Google deletes it from your account. Do step 1 too, or the game will copy your device's progress back the next
+      time it starts signed in. Your Play Games profile itself is Google's and is managed in the same settings.
+    </p>
+
+    <h2>3. Advertising data</h2>
+    <p>
+      The free Android version shows ads through Google AdMob, which may collect device information such as the
+      advertising ID (see the privacy policy). We do not hold this data. To delete or reset your advertising ID: phone
+      <b>Settings</b> → <b>Google</b> → <b>Ads</b> (or <b>Settings</b> → <b>Privacy</b> → <b>Ads</b>) →
+      <b>Delete advertising ID</b> or <b>Reset advertising ID</b>. Google's own data is managed at
+      <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">your Google Account's Data &amp; privacy page</a>.
+    </p>
+
+    <h2>What is kept</h2>
+    <p>
+      Nothing on our side: we have no server copy of your data to keep or delete. Data held by Google (Play Games, ads)
+      follows <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.
+    </p>
+
+    <h2>Questions</h2>
+    <p>Write to <a href="mailto:gustavolopes.dev@gmail.com">gustavolopes.dev@gmail.com</a> and we will help.</p>
+  </body>
+</html>
